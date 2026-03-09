@@ -1,0 +1,43 @@
+{
+  "name": "PagoDoc - Comprobantes de Pago",
+  "short_name": "PagoDoc",
+  "description": "Generador profesional de comprobantes y soportes de pago para tu negocio",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1a3c8a",
+  "theme_color": "#1a3c8a",
+  "orientation": "portrait",
+  "scope": "./",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./assets/screenshot.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["business", "finance", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Nuevo Soporte",
+      "short_name": "Nuevo",
+      "description": "Crear un nuevo soporte de pago",
+      "url": "./index.html",
+      "icons": [{ "src": "./assets/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
